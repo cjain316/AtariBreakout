@@ -22,7 +22,7 @@ public class Frame extends JPanel implements KeyListener, ActionListener{
     Block[][] blocks = new Block[6][20];
     private Image Sprite = null;
     private AffineTransform tx;
-    Color[] colors = {new Color(0,255,0),new Color(0,255,0),new Color(255,0,0)
+    Color[] colors = {new Color(0,255,100),new Color(0,255,0),new Color(255,0,0)
     		,new Color(0,0,255),new Color(255,255,0),new Color(0,255,255), new Color(255,255,255)};
     Color color;
     /* paint is getting called roughly 144x per second */
